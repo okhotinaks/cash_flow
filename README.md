@@ -44,7 +44,10 @@ pip install -r requirements.txt
 cd backend
 ```
 ```
-python3 manage.py migrate
+python manage.py makemigrations
+```
+```
+python manage.py migrate
 ```
 
 Создать суперюзера:
