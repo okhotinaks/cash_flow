@@ -41,6 +41,9 @@ pip install -r requirements.txt
 
 Выполнить миграци:
 ```
+cd backend
+```
+```
 python3 manage.py migrate
 ```
 
