@@ -63,6 +63,10 @@ class FinancialRecordCreareView(CreateView):
     template_name = 'finance/record_form.html'
     success_url = reverse_lazy('record-list')
 
+    def form_invalid(self, form):
+        form.instance.pk = None
+        return super().form_invalid(form)
+
 
 class FinancialRecordUpdateView(UpdateView):
     """Представление для редактирования существующей записи ДДС."""

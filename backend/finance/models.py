@@ -113,3 +113,9 @@ class FinancialRecord(models.Model):
     class Meta:
         verbose_name = 'Запись ДДС'
         verbose_name_plural = 'Записи ДДС'
+        constraints = [
+            models.UniqueConstraint(
+                fields=['created_at', 'status', 'operation_type', 'category', 'subcategory', 'amount'],
+                name='unique_financial_record_combination'
+            )
+        ]
