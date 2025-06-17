@@ -59,3 +59,4 @@ class FinancialRecordAdmin(admin.ModelAdmin):
         'status', 'operation_type', 'category', 'subcategory'
     ]
     date_hierarchy = 'created_at'
+    ordering = ['-created_at']
