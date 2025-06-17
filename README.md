@@ -3,6 +3,9 @@
 ## Описание 
 Веб-приложение, которое позволяет пользователям создавать, редактировать, удалять и просматривать записи о движении денежных средств.
 
+### Демо-версия : 
+[okhotinaks.pythonanywhere.com](https://okhotinaks.pythonanywhere.com/)
+
 ### Как запустить проект:
 
 Клонировать репозиторий и перейти в него в командной строке:
@@ -68,7 +71,8 @@ python3 manage.py runserver
 ![image](https://github.com/user-attachments/assets/f302d638-df57-45e2-a48e-909df217eee3)
 ![image](https://github.com/user-attachments/assets/161728cd-5f5c-4444-bb28-9bcc98669188)
 Управление справочниками доступно в админ-панели
-![image](https://github.com/user-attachments/assets/a346df51-98e1-4ab5-b5de-03e0811fed67)
+![image](https://github.com/user-attachments/assets/5542de74-d4b3-4055-a9c5-30d86cac44a3)
+
 
 
 Админ панель доступна по адресу: http://127.0.0.1:8000/admin/
