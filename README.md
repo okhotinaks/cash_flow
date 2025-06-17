@@ -57,3 +57,7 @@ python manage.py createsuperuser
 ```
 python3 manage.py runserver
 ```
+
+Админ панель доступна по адресу: http://127.0.0.1:8000/admin/
+
+Автор: Охотина Ксения Николаевна - [github.com/okhotinaks](https://github.com/okhotinaks)
