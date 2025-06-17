@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Удалить запись{% endblock %}
+
+{% block content %}
+<h2 class="mb-4">Подтверждение удаления</h2>
+
+<div class="alert alert-danger">
+  Вы уверены, что хотите удалить запись от {{ object.created_at|date:"d.m.Y" }} на сумму {{ object.amount }}?
+</div>
+
+<form method="post">
+  {% csrf_token %}
+  <button type="submit" class="btn btn-danger">Удалить</button>
+  <a href="{% url 'record-list' %}" class="btn btn-secondary">Отмена</a>
+</form>
+{% endblock %}
