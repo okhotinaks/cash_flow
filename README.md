@@ -58,7 +58,8 @@ python manage.py createsuperuser
 python3 manage.py runserver
 ```
 
-###Скришоты 
+### Скришоты 
+
 ![image](https://github.com/user-attachments/assets/55a23b61-670b-4e9d-8029-2c8368fd8109)
 ![image](https://github.com/user-attachments/assets/8b7af6fd-ac64-4eed-85dc-ac09873c8675)
 ![image](https://github.com/user-attachments/assets/f302d638-df57-45e2-a48e-909df217eee3)
